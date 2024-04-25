@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Eye Ease",
+    "version": "1.0",
+    "description": "Reminds you to take a break every 20 minutes to look 20 meters away for 20 seconds.",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "128": "logo.png"
+      }
+    },
+    "icons": {
+      "128": "logo.png"
+    },
+    
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "tabs",
+    "alarms",
+    "idle",
+    "windows"
+  ]
+  }
+  
